@@ -31,8 +31,49 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+header nav {
+    margin-top: 20px;
+	display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+
+header nav ul li {
+	display: flex;
+    padding: 2px;
+    color: black;
+    text-decoration: none;
+    float: left;
+    padding: 42px;
+    font-size: 15px;
+    justify-content: end;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li a:hover {
+    color: lightblue;
+}
+
+
+.logo {
+	padding-top: 18px;
+}
+
+.top-img {
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+
 ol, ul {
-	list-style: none;
+    list-style: none;
+    margin-left: auto;
 }
 blockquote, q {
 	quotes: none;
@@ -112,6 +153,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .one {
+    background-color: #008080;
+}
+
+.middle-content .boxes .two {
+    background-color: #ffd700;
+}
+
+.middle-content .boxes .three {
+    background-color: #5f9ea0;
+}
+
+.middle-content .boxes .four {
+    background-color: #ff7f50;
+}
+
+.middle-content .boxes .five {
+    background-color: #dc143c;
+}
+
+.middle-content .boxes .six {
+    background-color: #228b22;
+}
+
+.middle-content .boxes .seven {
+    background-color: #9932cc;
+}
+
+.middle-content .boxes .eight {
+    background-color: #ff69b4;
+}
+
+.middle-content .boxes .nine {
+    background-color: #4b0082;
+}
+
+.middle-content .boxes .ten {
+    background-color: #1e90ff;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +224,59 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* ABOUT PAGE */
+
+.about-section {
+    margin-bottom: 20px;
+}
+
+.dashed-border {
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.content-box {
+    display: flex;
+	width: 100%;
+}
+
+.one-box {
+    height: 450px
+    color: black;
+    margin: 10px;
+}
+
+.two-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.two-box .one-box .btn-box {
+	background-color: white;
+	border: solid 2px black;
+	border-radius: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+	
+}
+
+.last-section {
+    margin-bottom: 30px;
+    margin-left: 10px;
 }
