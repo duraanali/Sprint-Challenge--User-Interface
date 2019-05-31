@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-Answer: I would say Semantic HTML is a HTML tags with a meaning such <p> for paragraph and <nav> for navigation. These tags were introduced to HTML5 and they are recommended. They also help people who depend on screen reading devices to understand which section of the webpage they are browsing.
+Answer: I would say Semantic HTML is a HTML tags with a meaning such P for paragraph and NAV for navigation. These tags were introduced to HTML5 and they are recommended. They also help people who depend on screen reading devices to understand which section of the webpage they are browsing.
     
     
 
